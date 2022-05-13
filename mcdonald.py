@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import requests, json, math, sys, urllib3
+import asyncio
 
 
 class McDonaldsError(Exception):
